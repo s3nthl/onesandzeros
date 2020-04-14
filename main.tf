@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "testdevopsrg" {
+1resource "azurerm_resource_group" "testdevopsrg" {
   name     = "${var.testdevopsrg}"
   location = "${var.location}"
 }
