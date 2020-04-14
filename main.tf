@@ -21,6 +21,11 @@ resource "azurerm_subnet" "testsubnet" {
   resource_group_name  = "${azurerm_resource_group.testdevopsrg.name}"
   virtual_network_name = "${azurerm_virtual_network.testvnet.name}"
   address_prefix       = "${var.testaddress_subnet}"
+    //
+  //
+  //
+  //
+  //
 }
 
 
