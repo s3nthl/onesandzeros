@@ -14,6 +14,11 @@ resource "azurerm_virtual_network" "testvnet" {
   dns_servers         = "${var.dns_servers}"
   location            = "${azurerm_resource_group.testdevopsrg.location}"
   resource_group_name = "${azurerm_resource_group.testdevopsrg.name}"
+  //
+  //
+  //
+  //
+  //
 }
 
 resource "azurerm_subnet" "testsubnet" {
